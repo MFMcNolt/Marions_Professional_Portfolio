@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 0 0 50%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.col-left {
+    background-color: gray;
+    flex: 0 0 15%;
+}
+
+.col-right {
+    background-color: pink;
+    flex: 0 0 85%;
+}
+
+.col-full {
+    flex: 0 0 100%;
+}
