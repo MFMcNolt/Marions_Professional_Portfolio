@@ -47,7 +47,7 @@ margin: 0;
     background-position: center;
   }
 
-/*flexbox styling for the main body of the site*/
+/*styling for About-Me*/
 
 .container {
     display: flex;
@@ -79,14 +79,28 @@ margin: 0;
     text-align: justify;
 }
 #contact-me {
-    border-right: 5px;
+    text-align: justify;
 }
 #contact-me {
-    border-right: 5px;
+    text-align: justify;
 }
-    
-/*what I did to get the black line
-border-right: 5px solid black;*/
+
+/*styling for my-work*/
+
+.box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.horiseon {
+   width: 100%; 
+   flex: 1;
+}
 
 
 .col-right {
@@ -98,6 +112,4 @@ border-right: 5px solid black;*/
     flex: 0 0 100%;
 }
 
-#contact-me {
-    border-right: 5px;
-}
+/*styling for contact-me*/
