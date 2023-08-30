@@ -1,6 +1,6 @@
 /*I did this as I read it was a trick to help understand flexbox*/
-
-* { outline: 1px solid red }
+/*
+* { outline: 1px solid red }*/
 
 * {
     margin: 0;
@@ -62,11 +62,12 @@ margin: 0;
     flex: 1;
     padding: 10px;
     box-sizing: border-box;
+
 }
 .col-left {
     background-color: gray;
     width: 15%;
-    border: 5px solid gray;
+    border-right: 5px solid rgb(14, 10, 10);
 }
 .col-right {
     background-color: pink;
@@ -74,8 +75,14 @@ margin: 0;
     justify-content: right;
     
 }
-.about-me {
+#about-me {
     text-align: justify;
+}
+#contact-me {
+    border-right: 5px;
+}
+#contact-me {
+    border-right: 5px;
 }
     
 /*what I did to get the black line
@@ -91,3 +98,6 @@ border-right: 5px solid black;*/
     flex: 0 0 100%;
 }
 
+#contact-me {
+    border-right: 5px;
+}
