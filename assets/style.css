@@ -1,16 +1,27 @@
+/*I did this as I read it was a trick to help understand flexbox*/
+
+* { outline: 1px solid red }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: Helvetica;
+  font-family: Helvetica; 
   font-size: 16px;
   line-height: 1.5;
-  margin: 0;
+margin: 0;
 }
 
+/*styling for the page heading and nav bar for the site*/
 
 .page-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  background-color: bisque;
+    background-color: bisque;
+    font-size: larger;
 }
 
 .page-header ul {
@@ -21,13 +32,14 @@ body {
   }
 
 .page-header a {
-    display: block;
     padding:0.5em;
     text-decoration:none;
   }
 
+/*a recent photo inserted into the site*/
+
   .picture {
-    height: 800px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(images/christin-hume-mfB1B1s4sMc-unsplash\ \(2\).jpg);
@@ -35,35 +47,47 @@ body {
     background-position: center;
   }
 
+/*flexbox styling for the main body of the site*/
+
 .container {
     display: flex;
+    justify-content: center;
     width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
 }
-
 .row {
     display: flex;
-    flex: 0 0 100%;
-    flex-wrap: wrap;
+    width: 100%;
 }
-
 .col {
-    flex: 0 0 50%;
-    text-align: center;
-    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
 }
-
 .col-left {
     background-color: gray;
-    flex: 0 0 15%;
+    width: 15%;
+    border: 5px solid gray;
 }
+.col-right {
+    background-color: pink;
+    width: 85%;
+    justify-content: right;
+    
+}
+.about-me {
+    text-align: justify;
+}
+    
+/*what I did to get the black line
+border-right: 5px solid black;*/
+
 
 .col-right {
     background-color: pink;
-    flex: 0 0 85%;
+    flex: 0 0 85%; 
 }
 
 .col-full {
     flex: 0 0 100%;
 }
+
