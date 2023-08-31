@@ -112,4 +112,7 @@ margin: 0;
     flex: 0 0 100%;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 /*styling for contact-me*/
