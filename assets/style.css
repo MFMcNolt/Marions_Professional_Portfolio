@@ -115,4 +115,10 @@ margin: 0;
 .wrap {
     flex-wrap: wrap;
 }
-/*styling for contact-me*/
+
+img {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height:100%
+  }
