@@ -14,6 +14,14 @@ body {
 margin: 0;
 }
 
+img {
+    
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height:100%
+  }
+
 /*styling for the page heading and nav bar for the site*/
 
 .page-header {
@@ -92,33 +100,33 @@ margin: 0;
     flex-flow: wrap;
     justify-content: center;
     margin-top: 10px;
-    justify-content: center;
     width: 100%;
 }
 
 
 .horiseon {
-   width: 100%; 
-   flex: 1;
+    max-width: 1000px;
+    flex: 1;
 }
 
 
 .col-right {
-    background-color: pink;
+    background-color: rgb(255, 192, 226);
     flex: 0 0 85%; 
 }
 
-.col-full {
-    flex: 0 0 100%;
-}
 
 .wrap {
     flex-wrap: wrap;
 }
 
-img {
-    margin: auto;
-    width: 100%;
-    max-width: 300px;
-    max-height:100%
-  }
+.col-full {
+flex: 0 0 100%;
+}
+
+.col .col-full ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
