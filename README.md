@@ -29,9 +29,8 @@ Finally, when clicking the Contact Me, you will find details on my GitHub.
 
 Please see below a screenshot of the site I built. This is where you can see the various use cases, which include links to the sections and links to my work as well as resources utlilized.
 
-    ```md
-    ![alt text](assets/images/ScreenshotPortfolio.png)
-    ```
+    
+![alt text](assets/images/ScreenshotPortfolio.png)
 
 ## Credits
 
